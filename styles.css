@@ -1,0 +1,81 @@
+h2 {
+    text-align: center;
+}
+
+/* Set the background color */
+body {
+    background-color: #1cc956;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+/* Style the table */
+table {
+    width: 600px;
+    height: 300px;
+    margin: auto;
+    background-color: rgb(13, 236, 110);
+}
+
+/* Style the table caption */
+caption {
+    caption-side: bottom;
+    font-size: 14px;
+    margin-top: 10px;
+    color: white;
+    font-size: larger;
+}
+
+tr{
+    color: black;
+}
+
+/* Style the image */
+td img {
+    width: 200px;
+    height: 150px;
+    padding: 10px;
+    border: 3px solid rgb(2, 2, 24);
+    display: block;
+    margin: auto;
+    box-sizing: border-box;
+    object-fit: contain;
+}
+
+/* Style the image container */
+
+
+h1 {
+    color: black;
+    font-size: 18px;
+    font-family: Arial, sans-serif;
+}
+
+/* Style the list items */
+ol {
+    margin: 0;
+    padding: 0;
+    list-style-position: inside;
+    color: black;
+}
+
+ol li {
+    margin-bottom: 10px;
+    color: black;
+}
+
+/* Style the links */
+a {
+    color: black;
+    text-decoration: none;
+}
+
+/* Vertically center the text */ 
+td{
+    vertical-align: middle;
+}
+
+table, td, th {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
